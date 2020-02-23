@@ -366,7 +366,7 @@ namespace MyUtils {
 				}
 			}
 
-			// последовательно выполняем оставшиеся операции операции
+			// последовательно выполняем оставшиеся операции
 			double result = d_operands[0];
 			for (int i = 1; i < d_operands.Count; i++) {
 				switch (operators[i - 1]) {
